@@ -1,0 +1,44 @@
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 12px;
+  }
+  .container-margin {
+    margin: 0 auto;
+    width: 95%;
+  }
+  .title {
+    margin: 10px;
+  }
+
+  .search {
+    margin: 10px;
+  }
+}
+@media (max-width: 767px) {
+  html {
+    font-size: 11px;
+  }
+}
+@media (max-width: 450px) {
+  .menu_nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .menu_nav a {
+    padding: 20px 20px;
+    margin: 0 auto;
+    border-right: none;
+  }
+  .menu_nav a:hover {
+    transition: all 0.2s linear;
+    color: rgb(109, 109, 131);
+    border-right: 0;
+  }
+}
+@media (max-width: 300px) {
+  .table {
+    overflow: scroll;
+  }
+}
