@@ -13,6 +13,9 @@
   .search {
     margin: 10px;
   }
+  .background-menu {
+    width: 100%;
+  }
 }
 @media (max-width: 767px) {
   html {
