@@ -59,7 +59,10 @@ body {
   margin-right: 5px;
   margin-bottom: 5px;
 }
-
+.main-menu {
+  margin: 0 auto;
+  width: 80%;
+}
 .title-gray {
   color: #b0b0b0;
 }
