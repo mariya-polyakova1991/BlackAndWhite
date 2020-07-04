@@ -1,5 +1,15 @@
+@media screen and (min-width: 1000px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  body {
+    font-size: 18px;
+  }
+}
 @media screen and (max-width: 1000px) {
-  html {
+  body {
     font-size: 12px;
   }
   .container-margin {
@@ -28,6 +38,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+  .Images-li {
+    margin: 10px auto;
   }
 
   .menu_nav a {

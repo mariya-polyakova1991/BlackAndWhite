@@ -1,0 +1,97 @@
+/* Images Lists*/
+.Images {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Images-li {
+  border: solid 10px #b0b0b0;
+  width: 210px;
+  height: 145px;
+  margin: 10px;
+}
+.Images-li:hover {
+  border: solid 10px rgb(95, 91, 91);
+  transform: scale(1.2);
+  transition: all 0.2s linear;
+}
+.Images-li img {
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+}
+
+.Lists-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-Lists-right ul {
+  list-style: none;
+}
+.Lists-flex ul,
+.Lists-flex ol {
+  padding: 20px;
+}
+.Lists-m-auto {
+  margin: 5px auto;
+}
+/* table */
+th {
+  text-align: left;
+  border-left: solid 1px #b0b0b0;
+  border-bottom: solid 1px #b0b0b0;
+  font-weight: bold;
+  background-color: #efefef;
+  padding: 5px;
+}
+td {
+  border-left: solid 1px #b0b0b0;
+  border-top: solid 1px #b0b0b0;
+  padding: 5px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* forms */
+.half-width {
+  margin: 10px auto;
+}
+textarea {
+  width: 300px;
+  height: 100px;
+  resize: none;
+  padding: 5px;
+}
+
+.Button-form {
+  padding: 5px 10px;
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+Button:hover {
+  transition: all 0.2s linear;
+  border: 0px;
+  color: rgb(109, 109, 131);
+  outline: none;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+input:hover,
+textarea:hover,
+select:hover {
+  background-color: rgb(222, 225, 233);
+}
+.Button-form:hover {
+  transition: all 0.2s linear;
+  border: 0px;
+  color: rgb(109, 109, 131);
+  outline: none;
+  background-color: black;
+}

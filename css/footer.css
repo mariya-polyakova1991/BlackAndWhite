@@ -1,0 +1,14 @@
+.footer-top {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.footer-p {
+  padding: 10px;
+  margin-left: 10%;
+}
+.footer-p a:hover {
+  transition: all 0.2s linear;
+
+  color: rgb(109, 109, 131);
+}

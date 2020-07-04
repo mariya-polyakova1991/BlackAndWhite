@@ -1,0 +1,90 @@
+.background-container {
+  background-color: black;
+  width: 100%;
+}
+.menu_nav a:hover {
+  transition: all 0.2s linear;
+  border: 0px;
+  color: rgb(109, 109, 131);
+  border-right: rgb(109, 109, 131) 1px solid;
+}
+.header_area {
+  background-color: #1c1c1c;
+}
+.container-margin1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.button-header {
+  color: white;
+  background-color: black;
+  border: none;
+}
+.search-input {
+  background-color: #323232;
+  border: none;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.main-menu {
+  margin: 0 auto;
+  width: 80%;
+}
+.title-gray {
+  color: #b0b0b0;
+}
+.title-white {
+  color: white;
+}
+
+.title-white-gray {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.menu_nav a {
+  font-weight: bold;
+}
+.background-menu {
+  margin: 0 auto;
+  width: 80%;
+  background-image: url(../img/banners/1500x500.jpg);
+  height: 340px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+}
+.background-menu-text {
+  margin: 15px;
+
+  color: white;
+}
+.background-menu-text1 {
+  background-color: black;
+  opacity: 50%;
+  width: 100%;
+}
+.menu_nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: black;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.menu_nav a {
+  padding: 10px 20px;
+  margin: 0 auto;
+  border-right: white 1px solid;
+  color: white;
+}

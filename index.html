@@ -10,8 +10,14 @@
       rel="stylesheet"
     />
     <title>Black and White</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/body.css" />
+    <link rel="stylesheet" href="css/button.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+
     <link rel="stylesheet" href="css/media-queries.css" />
+    <link rel="stylesheet" href="css/animate.css">
   </head>
   <body>
     <header class="header_area" class="title-white">
@@ -61,7 +67,7 @@
         </ul>
       </div>
       <div class="container-margin">
-      <div class="conteiner-mt">
+      <div class="container-mt wow fadeInUp">
         <h1 id="About">W<span class="title-gray">hat we do</span></h1>
         <p>
           Lorem ipsum dolor sit amet, <a>consectetur adipisicing elit</a>, sed
@@ -77,27 +83,27 @@
         </p>
       </div>
 
-      <div class="conteiner-Images conteiner-mt">
-        <h2 id="Blog">I<span class="title-gray">mages</span></h2>
-        <div class="Images conteiner-mt">
-          <div class="Images-li">
-            <img src="img/1/1090235.jpg" />
+      <div class="container-Images container-mt">
+        <h2 id="Blog" class="wow fadeInUp">I<span class="title-gray">mages</span></h2>
+        <div class="Images container-mt">
+          <div class="Images-li wow fadeInLeft">
+            <img src="img/city/1090235.jpg" />
           </div>
-          <div class="Images-li">
-            <img src="img/1/belyie.jpg" />
+          <div class="Images-li wow fadeInLeft">
+            <img src="img/city/belyie.jpg" />
           </div>
-          <div class="Images-li">
-            <img src="img/1/bridge.jpg" />
+          <div class="Images-li wow fadeInRight">
+            <img src="img/city/bridge.jpg" />
           </div>
-          <div class="Images-li">
-            <img src="img/1/Bridges_Houses.jpg" />
+          <div class="Images-li wow fadeInRight">
+            <img src="img/city/Bridges_Houses.jpg" />
           </div>
         </div>
       </div>
-      <div class="conteiner-Lists conteiner-mt">
+      <div class="container-Lists container-mt wow fadeInUp">
         <h2  id="Work">L<span class="title-gray">ists and Descriptions</span></h2>
         <div class="Lists-flex">
-          <div class="conteiner-Lists-left Lists-m-auto">
+          <div class="container-Lists-left Lists-m-auto">
             <ul>
               <li>Sed ut perspiciatis unde omnis iste natus</li>
               <li>Lorem ipsum dolor sit amet, consectetur</li>
@@ -105,7 +111,7 @@
               <li>Et harum quidem rerum facilis est</li>
             </ul>
           </div>
-          <div class="conteiner-Lists-center Lists-m-auto">
+          <div class="container-Lists-center Lists-m-auto">
             <ol>
               <li>Sed ut perspiciatis unde omnis iste natus</li>
               <li>Lorem ipsum dolor sit amet, consectetur</li>
@@ -113,7 +119,7 @@
               <li>Et harum quidem rerum facilis est</li>
             </ol>
           </div>
-          <div class="conteiner-Lists-right Lists-m-auto">
+          <div class="container-Lists-right Lists-m-auto">
             <ul>
               <li>Sed ut perspiciatis unde omnis iste natus</li>
               <li>
@@ -129,9 +135,9 @@
           </div>
         </div>
       </div>
-      <div class="conteiner-table conteiner-mt">
+      <div class="container-table container-mt wow fadeInUp">
         <h2>T<span class="title-gray">able</span></h2>
-        <div class="table conteiner-mt">
+        <div class="table container-mt">
           <table>
             <tr>
               <th>Lorem</th>
@@ -166,9 +172,9 @@
           </table>
         </div>
       </div>
-      <h2 id="Contact" class="conteiner-mt">F<span class="title-gray">orms</span></h2>
+      <h2 id="Contact" class="container-mt wow fadeInUp">F<span class="title-gray">orms</span></h2>
       <form action="#" method="post">
-        <div class="half-width conteiner-mt">
+        <div class="half-width container-mt wow fadeInUp">
           <label for="text-form">Text</label><br />
           <input
             type="text"
@@ -207,8 +213,9 @@
           <input class="half-width Button-form" type="submit" value="Button" />
         </div>
       </form>
+    
     </div>
-    <footer class="footer-top">
+    <footer class="footer-top wow fadeInUp">
       <div class="footer-p">© Footer content <a>Link footer</a></div>
     </footer>
     <button class="up-button" type="button">
@@ -217,5 +224,9 @@
     </button>
   
     <script src="/js/up-button.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
   </body>
 </html>

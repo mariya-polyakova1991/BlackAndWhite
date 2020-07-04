@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+
+  font-weight: bold;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 14px;
+  font-family: "Libre Baskerville", serif;
+  background-color: white;
+  color: black;
+}
+button,
+input,
+select {
+  padding: 5px;
+}
+h1,
+h2 {
+  margin-top: 10px;
+}
+.container-margin {
+  margin: 0 auto;
+  width: 80%;
+}
+.container-mt {
+  margin-top: 20px;
+}
