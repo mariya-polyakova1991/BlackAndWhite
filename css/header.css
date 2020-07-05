@@ -24,12 +24,14 @@
   color: white;
   background-color: black;
   border: none;
+  border-radius: 5px;
 }
 .search-input {
   background-color: #323232;
   border: none;
   margin-right: 5px;
   margin-bottom: 5px;
+  border-radius: 5px;
 }
 .main-menu {
   margin: 0 auto;
@@ -53,15 +55,15 @@
 .menu_nav a {
   font-weight: bold;
 }
-.background-menu {
-  margin: 0 auto;
-  width: 80%;
+
+.imgOne {
   background-image: url(../img/banners/1500x500.jpg);
-  height: 340px;
-  overflow: hidden;
-  display: flex;
-  align-items: flex-end;
-  background-size: cover;
+}
+.imgTwo {
+  background-image: url(../img/banners/s_shutterstock_111777137.jpg);
+}
+.imgTree {
+  background-image: url(../img/banners/1500x500city.jpg);
 }
 .background-menu-text {
   margin: 15px;
@@ -72,6 +74,8 @@
   background-color: black;
   opacity: 50%;
   width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 .menu_nav {
   display: flex;
@@ -87,4 +91,13 @@
   margin: 0 auto;
   border-right: white 1px solid;
   color: white;
+}
+.background-menu {
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  height: 340px;
+  overflow: hidden;
+  align-items: flex-end;
+  background-size: cover;
 }
