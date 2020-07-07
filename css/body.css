@@ -9,6 +9,7 @@
   width: 210px;
   height: 145px;
   margin: 10px;
+  transition: all 0.2s linear;
 }
 .Images-li:hover {
   border: solid 10px rgb(95, 91, 91);
