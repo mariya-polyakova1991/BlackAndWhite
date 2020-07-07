@@ -1,6 +1,6 @@
-let prev = document.querySelector(".prev");
-let next = document.querySelector(".next");
-let slides = document.querySelectorAll(".background-menu");
+const prev = document.querySelector(".prev");
+const next = document.querySelector(".next");
+const slides = document.querySelectorAll(".background-menu");
 
 let slideIndex = 1;
 showSlides(slideIndex);
