@@ -8,10 +8,10 @@
   color: rgb(109, 109, 131);
   border-right: rgb(109, 109, 131) 1px solid;
 }
-.header_area {
+.header-area {
   background-color: #1c1c1c;
 }
-.container-margin1 {
+.container-margin-head {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -56,13 +56,13 @@
   font-weight: bold;
 }
 
-.imgOne {
+.img-one {
   background-image: url(../img/banners/1500x500.jpg);
 }
-.imgTwo {
+.img-two {
   background-image: url(../img/banners/s_shutterstock_111777137.jpg);
 }
-.imgTree {
+.img-tree {
   background-image: url(../img/banners/1500x500city.jpg);
 }
 .background-menu-text {
@@ -70,7 +70,7 @@
 
   color: white;
 }
-.background-menu-text1 {
+.background-menu-container {
   background-color: black;
   opacity: 50%;
   width: 100%;

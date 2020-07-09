@@ -16,7 +16,7 @@
     margin: 0 auto;
     width: 95%;
   }
-  .container-margin1 {
+  .container-margin-head {
     width: 95%;
   }
   .title {
@@ -42,7 +42,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .Images-li {
+  .images-list {
     margin: 10px auto;
   }
 

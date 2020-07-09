@@ -1,39 +1,39 @@
 /* Images Lists*/
-.Images {
+.images {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.Images-li {
+.images-list {
   border: solid 10px #b0b0b0;
   width: 210px;
   height: 145px;
   margin: 10px;
   transition: all 0.2s linear;
 }
-.Images-li:hover {
+.images-list:hover {
   border: solid 10px rgb(95, 91, 91);
   transform: scale(1.2);
   transition: all 0.2s linear;
 }
-.Images-li img {
+.images-list img {
   width: 100%;
   overflow: hidden;
   height: 100%;
 }
 
-.Lists-flex {
+.lists-flex {
   display: flex;
   flex-wrap: wrap;
 }
-.container-Lists-right ul {
+.container-lists-right ul {
   list-style: none;
 }
-.Lists-flex ul,
-.Lists-flex ol {
+.lists-flex ul,
+.lists-flex ol {
   padding: 20px;
 }
-.Lists-m-auto {
+.lists-m-auto {
   margin: 5px auto;
 }
 /* table */
